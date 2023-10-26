@@ -9,6 +9,16 @@
       "country": "india",
       "address": "herat",
       "gender": "male"
+    },
+    {
+      "id": "ahmad",
+      "name": "ahmadi",
+      "password": "1234",
+      "email": "ahmad@gmail.com",
+      "phone": "14343421",
+      "country": "india",
+      "address": "kabul",
+      "gender": "male"
     }
   ]
 }
