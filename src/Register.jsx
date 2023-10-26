@@ -37,6 +37,7 @@ const Register = () => {
       toast.warning(errormessage);
     } else {
       if (/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(email)) {
+        console.log();
       } else {
         isproceed = false;
         toast.warning("Please enter the valid email");
@@ -49,7 +50,7 @@ const Register = () => {
     let regobj = { id, name, password, email, phone, country, address, gender };
     if (IsValidate()) {
       //console.log(regobj);
-      fetch("http://localhost:8000/user", {
+      fetch("http://localhost:3000/user", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(regobj),
@@ -172,7 +173,7 @@ const Register = () => {
                       value="male"
                       className="app-check"
                     ></input>
-                    <label>Male</label>
+                    <label className="me-2">Male</label>
                     <input
                       type="radio"
                       checked={gender === "female"}
