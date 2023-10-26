@@ -1,0 +1,44 @@
+{
+  "user": [
+    {
+      "id": "Ahmad",
+      "name": "Ahmadi",
+      "password": "123",
+      "email": "mujtaba@gmail.com",
+      "phone": "07999",
+      "country": "usa",
+      "address": "fjaljfa",
+      "gender": "male"
+    },
+    {
+      "id": "Mujtaba",
+      "name": "Mussavi",
+      "password": "123456",
+      "email": "musa@gmail.com",
+      "phone": "7897923423",
+      "country": "india",
+      "address": "fjalfjalfj",
+      "gender": "male"
+    },
+    {
+      "id": "Qais",
+      "name": "Ulfat",
+      "password": "4566666",
+      "email": "ulfat@gmail.com",
+      "phone": "0789999999",
+      "country": "india",
+      "address": "fjdlfajf",
+      "gender": "male"
+    },
+    {
+      "id": "ahmad",
+      "name": "hussaini",
+      "password": "41;kljl;fja",
+      "email": "hus@gmail.com",
+      "phone": "18408104",
+      "country": "india",
+      "address": "jfldkajf",
+      "gender": "female"
+    }
+  ]
+}
